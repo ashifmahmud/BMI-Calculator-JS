@@ -23,14 +23,22 @@ function bmiCalculator(){
   if(bmi<18.6){
     document.getElementById("result").innerHTML = bmi;
     document.getElementById("result").style.color = "yellow";
+    document.getElementById("comment").innerHTML = "Under weight, eat healthy!";
   }
   else if(bmi>=18.6 && bmi<=24.9){
     document.getElementById("result").innerHTML = bmi;
     document.getElementById("result").style.color = "green";
+    document.getElementById("comment").innerHTML = "Wow! you are so fit!";
+  }
+  else if(bmi>24.9 && bmi<=29.9){
+    document.getElementById("result").innerHTML = bmi;
+    document.getElementById("result").style.color = "red";
+    document.getElementById("comment").innerHTML = "Diet and workout is fun you know?";
   }
   else{
     document.getElementById("result").innerHTML = bmi;
-    document.getElementById("result").style.color = "red";
+    document.getElementById("result").style.color = "#BE1600";
+    document.getElementById("comment").innerHTML = "Watch out for yourself! ";
   }
 
   
