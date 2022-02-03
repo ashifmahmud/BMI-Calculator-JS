@@ -25,7 +25,7 @@ function bmiCalculator(){
   var ow = ["Diet and workout is fun you know?", "Let's not eat fats!","You know what's great food? Salad and vegetables!", "Let's go for a 5 mile walk!","I love burger & pizza too but let's avoid it."];
   var ob = ["Watch out for yourself! ","Be careful!", "Your heart is sad, let's go workout!", "Diet is the very sexy!", "Bro! Go workout!"];
 
-  var x = Math.floor(Math.random()*6);
+  var x = Math.floor(Math.random()*5);
   
   if(bmi<18.6){
     document.getElementById("result").innerHTML = bmi;
